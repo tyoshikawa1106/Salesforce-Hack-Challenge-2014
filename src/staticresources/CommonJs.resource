@@ -5,26 +5,26 @@ $(function() {
         var self = this;
 
         // 姓
-        self.LastName = '吉川';
+        self.LastName = '';
         // 名
-        self.FirstName = '大樹';
+        self.FirstName = '';
         // 性別(man or woman)
         self.Sex = 'man';
         // 生年月日(yyyy-mm-dd)
         self.Birthday = '1985-11-06';
         // 電話
-        self.Phone = '090-2246-0238';
+        self.Phone = '';
         // メール
-        self.Email = 'tyoshikawa1106@gmail.com';
+        self.Email = '';
 
         // 郵便番号
-        self.PostalCode = '134-0084';
+        self.PostalCode = '';
         // 都道府県
-        self.State = '東京都';
+        self.State = '';
         // 市区郡
-        self.City = '江戸川区';
+        self.City = '';
         // 町名・番地
-        self.Street = '東葛西5-38-7';
+        self.Street = '';
 
         // Force.com開発経験 (年)
         self.DevelopmentExperienceYear = 3;
