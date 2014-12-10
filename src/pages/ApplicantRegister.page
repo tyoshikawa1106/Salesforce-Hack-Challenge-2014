@@ -1,0 +1,31 @@
+<apex:page title="Welcome" showHeader="false" sidebar="false" standardStylesheets="false" docType="html-5.0" id="page">
+    <head>
+        <!-- Remote Objects -->
+        <apex:remoteObjects >
+            <apex:remoteObjectModel name="Applicant__c" fields="Id">
+                <apex:remoteObjectField name="Name" />
+            </apex:remoteObjectModel>
+        </apex:remoteObjects>
+        <!-- jQuery -->
+        <apex:includeScript value="{!$Resource.jQuery211}" />
+        <!-- KnockoutJs -->
+        <apex:includeScript value="{!$Resource.KnockoutJs320}" />
+        <!-- Bootstrap -->
+        <apex:stylesheet value="{!URLFOR($Resource.BootstrapSF1, 'dist/css/bootstrap.min.css')}"/>
+        <apex:stylesheet value="{!URLFOR($Resource.BootstrapSF1, 'dist/css/docs.min.css')}"/>
+        <apex:includeScript value="{!URLFOR($Resource.BootstrapSF1, 'dist/js/bootstrap.min.js')}"/>
+        <apex:includeScript value="{!URLFOR($Resource.BootstrapSF1, 'js/docs.min.js')}"/>
+        <!-- Other -->
+        <apex:stylesheet value="{!$Resource.CommonCss}"/>
+        <apex:includeScript value="{!$Resource.CommonJs}" loadOnReady="true" />
+    </head>
+    <body>
+        <div id="vf-page">
+            <div id="content" class="padding">
+                <!-- 基本情報入力 -->
+                <c:ApplicantRegisterMain />
+                <button type="button" data-bind="click: RegisterBtn" class="btn btn-primary btn-full-size" name="Register">登録</button>
+            </div>
+        </div>
+    </body>
+</apex:page>
