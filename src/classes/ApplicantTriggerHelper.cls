@@ -28,7 +28,7 @@ public with sharing class ApplicantTriggerHelper {
             // 件名
             email.setSubject(System.Label.ApplicantEmailSetSubject);
             // 本文
-            email.setPlainTextBody(applicant.FullName__c + ' 様' + '\n' + System.Label.ApplicantEmailSetPlainTextBody);
+            email.setPlainTextBody(applicant.FullName__c + ' ' + System.Label.Salutation + '\n' + System.Label.ApplicantEmailSetPlainTextBody);
             // 送信元になるようセット
             email.setOrgWideEmailAddressId(orgWideEmailAddress.Id);
             // リスト追加

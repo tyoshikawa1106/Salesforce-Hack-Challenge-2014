@@ -26,15 +26,28 @@ public with sharing class ApplicantFeedPostBatchHelper {
             ConnectApi.FeedItemInput feedItemInput = new ConnectApi.FeedItemInput();
             ConnectApi.MessageBodyInput messageBodyInput = new ConnectApi.MessageBodyInput();
             ConnectApi.TextSegmentInput textSegmentInput = new ConnectApi.TextSegmentInput();
-
+            ConnectApi.FeedElementCapabilitiesInput feedElementCapabilitiesInput = new ConnectApi.FeedElementCapabilitiesInput();
             // new List
             messageBodyInput.messageSegments = new List<ConnectApi.MessageSegmentInput>();
 
-            // Post Message
-            String post = '新しい応募者情報が登録されました。';
-            post += '\n';
-            post += '応募者: ' + applicant.FullName__c;
+            String fullName = applicant.FullName__c != null
+                                        ? applicant.FullName__c : '';
+            Integer devYear = applicant.DevelopmentExperienceYear__c != null
+                                        ? applicant.DevelopmentExperienceYear__c.IntValue() : 0;
+            Integer age = applicant.Age__c != null
+                                    ? applicant.Age__c.IntValue() : 0;
 
+            // Post Message
+            String post = System.Label.PostMessage;
+            post += '\n';
+            post += System.Label.ApplicantName + System.Label.Colon + ' ' + fullName;
+            post += '\n';
+            post += System.Label.DevelopmentHistory + System.Label.Colon + ' ' + String.valueOf(devYear) + System.Label.Year;
+            post += '\n';
+            post += System.Label.Age + System.Label.Colon + ' ' + String.valueOf(age) + System.Label.YearOld;
+            post += '\n';
+
+            // textSegment set
             textSegmentInput.text = post;
             messageBodyInput.messageSegments.add(textSegmentInput);
             
@@ -44,6 +57,12 @@ public with sharing class ApplicantFeedPostBatchHelper {
 
             // Use a group ID for the subject ID.
             feedItemInput.subjectId = applicant.Id;
+
+            // capabilities
+            feedElementCapabilitiesInput.link = new ConnectApi.LinkCapabilityInput();
+            feedElementCapabilitiesInput.link.url = '/' + applicant.Id;
+            feedElementCapabilitiesInput.link.urlName = applicant.FullName__c;
+            feedItemInput.capabilities = feedElementCapabilitiesInput;
 
             // Mention a group.
             mentionSegmentInput.id = chatterGroup.Id;

@@ -115,6 +115,13 @@
                     <input type="text" data-bind="value:SuccessCommunityProfile" class="form-control input-large" id="successCommunityProfile" placeholder="{!$ObjectType.Applicant__c.Fields.SuccessCommunityProfileUrl__c.Label}{!$Label.PleaseEnter}"></input>
                 </div>
             </div>
+            <!-- メッセージ -->
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="message">{!$ObjectType.Applicant__c.Fields.Message__c.Label}</label>
+                    <textarea data-bind="value:Message" class="form-control input-large" id="message" placeholder="{!$ObjectType.Applicant__c.Fields.Message__c.Label}{!$Label.PleaseEnter}"></textarea>
+                </div>
+            </div>
         </div>
     </div>
     <!-- ソーシャル -->

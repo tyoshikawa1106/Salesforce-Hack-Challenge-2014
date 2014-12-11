@@ -33,6 +33,8 @@ public with sharing class ApplicantFeedPostBatch implements Database.batchable<s
         query += ' SELECT ';
         query += ' Id ';
         query += ' ,FullName__c ';
+        query += ' ,DevelopmentExperienceYear__c ';
+        query += ' ,Age__c ';
         query += ' FROM ';
         query += ' Applicant__c ';
         query += ' WHERE ';

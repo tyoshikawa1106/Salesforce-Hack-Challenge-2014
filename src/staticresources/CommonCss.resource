@@ -15,12 +15,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .padding {
-    padding: 20px 40px;
+    padding: 10px;
 }
 
 .black-board {
     opacity: 0.6;
     background-color: #000000 !important;
+}
+
+.black-backColor {
+    background:rgba(0,0,0,0.7) !important;
 }
 
 .input-small {
@@ -55,4 +59,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .display-none {
     display: none;
+}
+
+.customLink,
+.customLink:hover {
+    text-decoration: none;
 }
