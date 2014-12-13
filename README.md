@@ -16,6 +16,12 @@
 - Salesforce1 Mobile
 - Report&Dashboard
 
+## Application
+// 概要追記
+
+## Demo Video
+// 動画追記
+
 ## Code
 ### 応募者登録画面  
 - ApplicantRegister.page  
