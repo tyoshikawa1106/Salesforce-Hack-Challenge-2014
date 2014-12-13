@@ -54,4 +54,5 @@ http://jphack2014.challengepost.com/submissions/30742-force-com-developer
 - CommonCss.resource
 
 ## Link
-http://jphack2014.challengepost.com/
+- http://jphack2014.challengepost.com/
+- http://jp.force.com/devzone2014/hackchallenge
