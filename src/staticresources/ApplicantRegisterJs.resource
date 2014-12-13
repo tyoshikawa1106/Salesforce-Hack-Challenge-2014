@@ -11,7 +11,7 @@ $(function() {
         // 性別(man or woman)
         self.Sex = 'man';
         // 生年月日(yyyy-mm-dd)
-        self.Birthday = '';
+        self.Birthday = '1990-01-01';
         // 電話
         self.Phone = '';
         // メール

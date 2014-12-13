@@ -1,6 +1,6 @@
 <apex:component id="applicantSearchMain">
     <!-- 応募者検索 -->
-    <div class="black-backColor padding" style="min-height: 800px;">
+    <div class="black-backColor padding" style="min-height: 1500px;">
         <div class="padding">
             <div class="input-group">
                 <input type="text" class="form-control input-large" data-bind="value:searchKey" placeholder="{!$Label.IsEmptyApplicantName}" />
@@ -11,10 +11,10 @@
         </div>
         <div class="padding">
             <ul class="list-group" data-bind="foreach: listItems">
-                <a class="customLink" data-bind="attr: { href: LinkUrl, title: FullName }">
+                <a href="#" class="customLink" data-bind="click: $parent.clickRecordLink, clickBubble: false">
                     <li class="list-group-item">
-                        <span data-bind="text: FullName"></span>
-                        <span data-bind="text: Other"></span>
+                        <div data-bind="text: FullName"></div>
+                        <div data-bind="text: Other" style="font-size: 14px;"></div>
                     </li>
                 </a>
             </ul>

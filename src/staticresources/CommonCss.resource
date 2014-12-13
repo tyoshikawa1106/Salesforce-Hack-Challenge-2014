@@ -45,6 +45,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #000000 !important;
 }
 
+.input-highlight {
+    background-color: #f0e68c;
+}
+
 .input-form-title {
     font-size: 22px;
     font-weight: bold;

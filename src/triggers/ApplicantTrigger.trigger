@@ -13,7 +13,7 @@ trigger ApplicantTrigger on Applicant__c (after insert) {
     if (Trigger.isAfter) {
         if (Trigger.isInsert) {
             // 応募者登録時にメール自動返信
-            handler.sendEmail(Trigger.new);
+            //handler.sendEmail(Trigger.new);
         }
     }
 }

@@ -7,14 +7,14 @@
             <div class="col-md-6">
                 <div class="form-group">
                     <label for="lastName">{!$ObjectType.Applicant__c.Fields.LastName__c.Label}</label>
-                    <input type="text" data-bind="value:LastName" class="form-control input-large" id="lastName" placeholder="{!$ObjectType.Applicant__c.Fields.LastName__c.Label}{!$Label.PleaseEnter}"></input>
+                    <input type="text" data-bind="value:LastName" class="form-control input-large input-highlight" id="lastName" placeholder="{!$ObjectType.Applicant__c.Fields.LastName__c.Label}{!$Label.PleaseEnter}"></input>
                 </div>
             </div>
             <!-- 名 -->
             <div class="col-md-6">
                 <div class="form-group">
                     <label for="firstName">{!$ObjectType.Applicant__c.Fields.FirstName__c.Label}</label>
-                    <input type="text" data-bind="value:FirstName" class="form-control input-large" id="firstName" placeholder="{!$ObjectType.Applicant__c.Fields.FirstName__c.Label}{!$Label.PleaseEnter}"></input>
+                    <input type="text" data-bind="value:FirstName" class="form-control input-large input-highlight" id="firstName" placeholder="{!$ObjectType.Applicant__c.Fields.FirstName__c.Label}{!$Label.PleaseEnter}"></input>
                 </div>
             </div>
             <!-- 性別 -->
@@ -37,21 +37,21 @@
             <div class="col-md-12">
                 <div class="form-group">
                     <label for="birthday">{!$ObjectType.Applicant__c.Fields.Birthday__c.Label}</label>
-                    <input type="date" data-bind="value:Birthday" class="form-control input-medium" id="birthday" value="1985-01-01"></input>
+                    <input type="date" data-bind="value:Birthday" class="form-control input-medium input-highlight" id="birthday" value="1985-01-01"></input>
                 </div>
             </div>
             <!-- 電話 -->
             <div class="col-md-12">
                 <div class="form-group">
                     <label for="phone">{!$ObjectType.Applicant__c.Fields.Phone__c.Label}</label>
-                    <input type="text" data-bind="value:Phone" class="form-control input-large" id="phone" placeholder="{!$ObjectType.Applicant__c.Fields.Phone__c.Label}{!$Label.PleaseEnter}"></input>
+                    <input type="text" data-bind="value:Phone" class="form-control input-large input-highlight" id="phone" placeholder="{!$ObjectType.Applicant__c.Fields.Phone__c.Label}{!$Label.PleaseEnter}"></input>
                 </div>
             </div>
             <!-- メール -->
             <div class="col-md-12">
                 <div class="form-group">
                     <label for="email">{!$ObjectType.Applicant__c.Fields.Email__c.Label}</label>
-                    <input type="text" data-bind="value:Email" class="form-control input-large" id="email" placeholder="{!$ObjectType.Applicant__c.Fields.Email__c.Label}{!$Label.PleaseEnter}"></input>
+                    <input type="text" data-bind="value:Email" class="form-control input-large input-highlight" id="email" placeholder="{!$ObjectType.Applicant__c.Fields.Email__c.Label}{!$Label.PleaseEnter}"></input>
                 </div>
             </div>
         </div>
@@ -64,28 +64,28 @@
             <div class="col-md-12">
                 <div class="form-group">
                     <label for="postalCode">{!$ObjectType.Applicant__c.Fields.PostalCode__c.Label}</label>
-                    <input type="text" data-bind="value:PostalCode" class="form-control input-medium" id="postalCode" placeholder="{!$ObjectType.Applicant__c.Fields.PostalCode__c.Label}{!$Label.PleaseEnter}"></input>
+                    <input type="text" data-bind="value:PostalCode" class="form-control input-medium input-highlight" id="postalCode" placeholder="{!$ObjectType.Applicant__c.Fields.PostalCode__c.Label}{!$Label.PleaseEnter}"></input>
                 </div>
             </div>
             <!-- 都道府県 -->
             <div class="col-md-12">
                 <div class="form-group">
                     <label for="state">{!$ObjectType.Applicant__c.Fields.State__c.Label}</label>
-                    <input type="text" data-bind="value:State" class="form-control input-medium" id="state" placeholder="{!$ObjectType.Applicant__c.Fields.State__c.Label}{!$Label.PleaseEnter}"></input>
+                    <input type="text" data-bind="value:State" class="form-control input-medium input-highlight" id="state" placeholder="{!$ObjectType.Applicant__c.Fields.State__c.Label}{!$Label.PleaseEnter}"></input>
                 </div>
             </div>
             <!-- 市区郡 -->
             <div class="col-md-12">
                 <div class="form-group">
                     <label for="city">{!$ObjectType.Applicant__c.Fields.City__c.Label}</label>
-                    <input type="text" data-bind="value:City" class="form-control input-large" id="city" placeholder="{!$ObjectType.Applicant__c.Fields.City__c.Label}{!$Label.PleaseEnter}"></input>
+                    <input type="text" data-bind="value:City" class="form-control input-large input-highlight" id="city" placeholder="{!$ObjectType.Applicant__c.Fields.City__c.Label}{!$Label.PleaseEnter}"></input>
                 </div>
             </div>
             <!-- 町名・番地 -->
             <div class="col-md-12">
                 <div class="form-group">
                     <label for="street">{!$ObjectType.Applicant__c.Fields.Street__c.Label}</label>
-                    <textarea data-bind="value:Street" class="form-control input-large" id="street" placeholder="{!$ObjectType.Applicant__c.Fields.Street__c.Label}{!$Label.PleaseEnter}"></textarea>
+                    <textarea data-bind="value:Street" class="form-control input-large input-highlight" id="street" placeholder="{!$ObjectType.Applicant__c.Fields.Street__c.Label}{!$Label.PleaseEnter}"></textarea>
                 </div>
             </div>
         </div>  
@@ -98,7 +98,7 @@
             <div class="col-md-12">
                 <div class="form-group">
                     <label for="developmentExperienceYear">{!$ObjectType.Applicant__c.Fields.DevelopmentExperienceYear__c.Label}</label>
-                    <input type="number" data-bind="value:DevelopmentExperienceYear" class="form-control input-small" id="developmentExperienceYear" placeholder="{!$ObjectType.Applicant__c.Fields.DevelopmentExperienceYear__c.Label}{!$Label.PleaseEnter}"></input>
+                    <input type="number" data-bind="value:DevelopmentExperienceYear" class="form-control input-small input-highlight" id="developmentExperienceYear" placeholder="{!$ObjectType.Applicant__c.Fields.DevelopmentExperienceYear__c.Label}{!$Label.PleaseEnter}"></input>
                 </div>
             </div>
             <!-- Discussion Forum Profile URL -->

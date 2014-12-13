@@ -21,7 +21,7 @@ $(function() {
             } else {
                 results.forEach(function(result) {
                     self.listItems.push({
-                         LinkUrl: '/' + result.get('Id')
+                         LinkUrl: result.get('Id')
                         ,FullName: result.get('FullName__c')
                         ,Other: '(' + result.get('Age__c') + '歳' + ' / ' + 'Force.com開発歴:' + result.get('DevelopmentExperienceYear__c') + '年)'
                     });
@@ -47,13 +47,23 @@ $(function() {
                 } else {
                     results.forEach(function(result) {                    
                         self.listItems.push({
-                             LinkUrl: '/' + result.get('Id')
+                             LinkUrl: result.get('Id')
                             ,FullName: result.get('FullName__c')
                             ,Other: '(' + result.get('Age__c') + '歳' + ' / ' + 'Force.com開発歴:' + result.get('DevelopmentExperienceYear__c') + '年)'
                         });
                     });
                 }
             });
+        };
+
+        // RecordLink
+        self.clickRecordLink = function(data) {
+            
+            if (typeof sforce !== 'undefined' && sforce.one) {
+                sforce.one.navigateToSObject(data.LinkUrl); 
+            } else {
+                location.href = '/' + data.LinkUrl;
+            }
         };
     }
 
