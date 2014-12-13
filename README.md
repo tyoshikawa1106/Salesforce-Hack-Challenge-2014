@@ -22,14 +22,14 @@ http://jphack2014.challengepost.com/submissions/30742-force-com-developer
 - ApplicantRegisterMain.component  
 - ApplicantRegisterJs.resource  
 
-### 応募者INSERTトリガー  
+### 応募者INSERTトリガー(メール送信)  
 - ApplicantTrigger.trigger  
 - ApplicantTriggerHandler.cls  
 - ApplicantTriggerHandlerTest.cls  
 - ApplicantTriggerHelper.cls  
 - ApplicantTriggerHelperTest.cls  
 
-### 応募Chatter共有バッチ  
+### 応募者情報バッチ(Chatter共有)  
 - ApplicantFeedPostScheduleInterface.cls
 - ApplicantFeedPostScheduleInterfaceTest.cls  
 - ApplicantFeedPostScheduleConnect.cls  
