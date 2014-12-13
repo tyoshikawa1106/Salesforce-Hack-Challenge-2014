@@ -26,7 +26,7 @@
 ### 応募者登録画面  
 - ApplicantRegister.page  
 - ApplicantRegisterMain.component  
-- ApplicantRegisterJs.resource  
+- ApplicantRegisterJs.resource
 
 ### 応募者INSERTトリガー(メール送信)  
 - ApplicantTrigger.trigger  
@@ -58,6 +58,16 @@
 - CommonTester.cls
 - CommonTesterTest.cls
 - CommonCss.resource
+
+### サイト処理
+- HackSiteBandwidthExceeded.page
+- HackSiteException.page
+- HackSiteFileNotFound.page
+- HackSiteInMaintenance.page
+- HackSiteTemplate.page
+- HackSiteThanks.page
+- HackSiteUnauthorized.page
+- HackSiteCss.resource
 
 ## Link
 - http://jphack2014.challengepost.com/
