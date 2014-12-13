@@ -1,5 +1,7 @@
-<apex:page title="{!$Label.ApplicantSearch}" showHeader="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" standardStylesheets="false" docType="html-5.0" id="page">
+<apex:page showHeader="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" standardStylesheets="false" docType="html-5.0" id="page">
     <head>
+        <!-- Title -->
+        <title>{!$Label.ApplicantSearch}</title>
         <!-- Remote Objects -->
         <apex:remoteObjects >
             <apex:remoteObjectModel name="Applicant__c" fields="Id">

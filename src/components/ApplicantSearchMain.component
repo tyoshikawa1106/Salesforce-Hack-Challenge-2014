@@ -1,6 +1,6 @@
 <apex:component id="applicantSearchMain">
     <!-- 応募者検索 -->
-    <div class="black-backColor padding" style="min-height: 1500px;">
+    <div class="black-backColor padding minHeight">
         <div class="padding">
             <div class="input-group">
                 <input type="text" class="form-control input-large" data-bind="value:searchKey" placeholder="{!$Label.IsEmptyApplicantName}" />

@@ -145,7 +145,7 @@ $(function() {
                 if (err) {
                     alert(err.message);
                 } else {
-                    alert('Thanks!!');
+                    location.href="/HackSiteThanks";
                 }
             });
         }
