@@ -47,12 +47,12 @@
 - ApplicantFeedPostBatchDao.cls
 - ApplicantFeedPostBatchDaoTest.cls
 
-### 応募者検索  
+### 応募者検索画面  
 - ApplicantSearch.page
 - ApplicantSearchJs.resource
 - ApplicantSearchCss.resource
 
-### 共通  
+### 共通処理  
 - CommonDao.cls
 - CommonDaoTest.cls
 - CommonTester.cls
