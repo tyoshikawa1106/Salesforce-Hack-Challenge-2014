@@ -17,7 +17,7 @@ http://jphack2014.challengepost.com/submissions/30742-force-com-developer
 - Report&Dashboard
 
 ## Package URL
-https://login.salesforce.com/packaging/installPackage.apexp?p0=04t10000000G6rH
+https://login.salesforce.com/packaging/installPackage.apexp?p0=04t10000000G6rb
 
 ## Demo Video
 // 動画追記
