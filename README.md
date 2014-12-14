@@ -65,6 +65,11 @@ Force.comサイトで使用するページです。必要事項を入力して�
 
 <img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214174016.png" />
 
+### レポート&ダッシュボードで応募者情報の分析
+性別、都道府県、開発経験年数、応募のきっかけと4つのダッシュボードでどのような応募者が多いのか簡単に分析できます。
+
+<img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214174735.png" />
+
 
 ## Demo Video
 // 動画追記
