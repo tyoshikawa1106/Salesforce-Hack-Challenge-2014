@@ -47,10 +47,13 @@ Force.comサイトで使用するページです。必要事項を入力して�
 
 <img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214164910.png" />
 
-バッチ処理が正常に実行されたとき、Chatterグループには次のように共有されます。
+バッチ処理が正常に実行されたとき、Chatterグループには次のように共有されます。非公開グループに共有することで関係者のみ確認できるようになります。
 
 <img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214165807.png" />
 
+詳細ページへのリンクも貼られているので、Chatterフィードから詳細ページへ簡単に移動できます。Chatterグループへの投稿はレコードにも紐付いているので詳細ページからも確認できます。応募者について意見交換したい場合は、ここからChatter投稿やコメントを行います
+
+<img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214171559.png" />
 
 
 ## Demo Video
