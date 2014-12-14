@@ -121,7 +121,7 @@ Salesforce1アプリから応募者情報を検索できる画面です。検索
 <img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214181219.jpg" />
 
 ### Salesforce1 & Chatter
-応募者の評価や意見交換はChatterで行います。パブリッシャーアクションのアンケート機能などを利用することで評価結果を確認しやすくなります。
+応募者の評価や意見交換はChatterで行います。パブリッシャーアクションのアンケート機能などを利用することで評価結果を集計しやすくなります。
 
 <img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214230859.jpg" />
 
