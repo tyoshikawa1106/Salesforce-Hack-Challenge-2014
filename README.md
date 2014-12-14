@@ -21,8 +21,8 @@ https://login.salesforce.com/packaging/installPackage.apexp?p0=04t10000000G6rb
 
 - Developer環境にインストールすることで動作確認できます。
 - インストール後はChatterグループの作成とカスタム設定の登録を行って下さい。  
--- Chatterグループ名：応募管理グループ  
--- カスタム設定(ChatterGroup設定)：応募管理グループ  
+・Chatterグループ名：応募管理グループ  
+・カスタム設定(ChatterGroup設定)：応募管理グループ  
 ※グループ名が一致することでそのChatterグループに自動投稿が行われます。
 
 ## サイトURL
