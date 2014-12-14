@@ -19,6 +19,17 @@ http://jphack2014.challengepost.com/submissions/30742-force-com-developer
 ## Package URL
 https://login.salesforce.com/packaging/installPackage.apexp?p0=04t10000000G6rb
 
+- Developer環境にインストールすることで動作確認できます。
+- インストール後はChatterグループの作成とカスタム設定の登録を行って下さい。  
+-- Chatterグループ名：応募管理グループ  
+-- カスタム設定(ChatterGroup設定)：応募管理グループ  
+※グループ名が一致することでそのChatterグループに自動投稿が行われます。
+
+## サイトURL
+以下のURLで応募者登録画面にアクセスできます。  
+(登録処理は実行できますが、メール送信機能は無効にしています。)  
+https://ty-hack2014-developer-edition.ap0.force.com/
+
 ## Demo Video
 ### 再生リスト
 https://www.youtube.com/playlist?list=PLFSi-6JPTf9jVpsxr-pT0oWlVCZyike5y
