@@ -51,7 +51,7 @@ Force.comサイトで使用するページです。必要事項を入力して�
 
 <img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214161423.png" />
 
-社内ユーザは応募者タブから情報を参照できます。ブログやGitHubなどのURLを入力してもらうことでどのようなスキルを持つ開発者か確認しやすくなります。
+社内ユーザは応募者タブから情報を参照できます。ブログやGitHubなどのURLを入力してもらうことで、どのようなスキルを持つ開発者か確認しやすくなります。
 
 <img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214162846.png" />
 
