@@ -27,7 +27,7 @@ https://login.salesforce.com/packaging/installPackage.apexp?p0=04t10000000G6rb
 
 ## サイトURL
 以下のURLで応募者登録画面にアクセスできます。  
-(登録処理は実行できますが、メール送信機能は無効にしています。)  
+(登録処理は実行できますが、メール送信機能は無効にしてあります。)  
 https://ty-hack2014-developer-edition.ap0.force.com/
 
 ## Demo Video
@@ -120,7 +120,12 @@ Salesforce1アプリから応募者情報を検索できる画面です。検索
 
 <img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214181219.jpg" />
 
-### Salesforce1&ダッシュボード
+### Salesforce1 & Chatter
+応募者の評価や意見交換はChatterで行います。パブリッシャーアクションのアンケート機能などを利用することで評価結果を確認しやすくなります。
+
+<img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214230859.jpg" />
+
+### Salesforce1 & Dashboard
 Salesforce1アプリの標準機能でダッシュボードにアクセスできるのでPCからログインしなくもモバイル端末から簡単に分析情報を確認できます。
 
 <img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214182305.png" />
