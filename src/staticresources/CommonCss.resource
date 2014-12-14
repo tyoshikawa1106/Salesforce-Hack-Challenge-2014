@@ -59,6 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-full-size {
     width: 100%;
+    height: 50px;
 }
 
 .display-none {
@@ -71,5 +72,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .minHeight {
-    min-height: 1500px;
+    min-height: 2000px;
 }

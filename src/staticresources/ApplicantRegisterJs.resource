@@ -27,7 +27,7 @@ $(function() {
         self.Street = '';
 
         // Force.com開発経験 (年)
-        self.DevelopmentExperienceYear = 3;
+        self.DevelopmentExperienceYear = 0;
         // Discussion Forum Profile URL
         self.DiscussionForumProfile = '';
         // Success Community Profile URL
@@ -41,6 +41,11 @@ $(function() {
         self.GitHub = '';
         // SlideShare
         self.SlideShare = '';
+        // Youtube
+        self.Youtube = '';
+
+        // ソース
+        self.Source = '0';
 
         // Register Button
         self.RegisterBtn = function() {
@@ -74,34 +79,28 @@ $(function() {
                 alert('メールを入力してください');
                 return false;
             }
-
-
             // 郵便番号
             if (!self.PostalCode) {
                 alert('郵便番号を入力してください');
                 return false;
             }
-
             // 都道府県
             if (!self.State) {
                 alert('都道府県を入力してください');
                 return false;
             }
-
             // 市区郡
             if (!self.City) {
                 alert('市区郡を入力してください');
                 return false;
             }
-
             // 町名・番地
             if (!self.Street) {
                 alert('町名・番地を入力してください');
                 return false;
             }
-
             // Force.com開発経験 (年)
-            if (!self.DevelopmentExperienceYear) {
+            if (Number(self.DevelopmentExperienceYear) < 0) {
                 alert('Force.com開発経験 (年)を入力してください');
                 return false;
             }
@@ -112,6 +111,18 @@ $(function() {
                 sex = '女';
             } else {
                 sex = '男';
+            }
+
+            // ソース値取得
+            var source = '';
+            if (self.Source == '0') {
+                source = '未回答';
+            } else if (self.Source == '1') {
+                source = 'ホームページ';
+            } else if (self.Source == '2') {
+                source = '社員の紹介';
+            } else if (self.Source == '3') {
+                source = '求人広告';
             }
 
             // 誕生日取得
@@ -139,13 +150,16 @@ $(function() {
             newApplicant.set('BlogUrl__c', self.Blog);
             newApplicant.set('GitHubUrl__c', self.GitHub);
             newApplicant.set('SlideShareUrl__c', self.SlideShare);
+            newApplicant.set('YoutubeUrl__c', self.Youtube);
+            // ソース
+            newApplicant.set('Source__c', source);
 
             // INSERT
             newApplicant.create(function(err, results, event) {
                 if (err) {
                     alert(err.message);
                 } else {
-                    location.href="/HackSiteThanks";
+                    location.href="/apex/HackSiteThanks";
                 }
             });
         }

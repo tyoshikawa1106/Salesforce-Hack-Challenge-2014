@@ -149,6 +149,43 @@
                     <input type="text" data-bind="value:SlideShare" class="form-control input-large" id="slideShare" placeholder="{!$ObjectType.Applicant__c.Fields.SlideShareUrl__c.Label}{!$Label.PleaseEnter}"></input>
                 </div>
             </div>
+            <!-- Youtube -->
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="youtube">{!$ObjectType.Applicant__c.Fields.YoutubeUrl__c.Label}</label>
+                    <input type="text" data-bind="value:Youtube" class="form-control input-large" id="youtube" placeholder="{!$ObjectType.Applicant__c.Fields.YoutubeUrl__c.Label}{!$Label.PleaseEnter}"></input>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- アンケート -->
+    <div class="card black-board padding">
+        <div class="input-form-title">{!$Label.Questionnaire}</div>
+        <div class="row">
+            <!-- ソース -->
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="source">{!$ObjectType.Applicant__c.Fields.Source__c.Label}</label>
+                    <div>
+                        <div class="radio-inline">
+                            <input type="radio" value="0" data-bind="checked:Source" name="radioSource" id="0"></input>
+                            <label for="0">{!$Label.ApplicantSourceType0}</label>
+                        </div>
+                        <div class="radio-inline">
+                            <input type="radio" value="1" data-bind="checked:Source" name="radioSource" id="1"></input>
+                            <label for="1">{!$Label.ApplicantSourceType1}</label>
+                        </div>
+                        <div class="radio-inline">
+                            <input type="radio" value="2" data-bind="checked:Source" name="radioSource" id="2"></input>
+                            <label for="2">{!$Label.ApplicantSourceType2}</label>
+                        </div>
+                        <div class="radio-inline">
+                            <input type="radio" value="3" data-bind="checked:Source" name="radioSource" id="3"></input>
+                            <label for="3">{!$Label.ApplicantSourceType3}</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </apex:component>

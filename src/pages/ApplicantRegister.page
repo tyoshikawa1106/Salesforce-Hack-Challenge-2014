@@ -23,10 +23,11 @@
     </head>
     <body>
         <div id="vf-page">
-            <div id="content" class="padding">
+            <div id="content" class="padding minHeight">
                 <!-- 基本情報入力 -->
                 <c:ApplicantRegisterMain />
-                <button type="button" data-bind="click: RegisterBtn" class="btn btn-primary btn-full-size" name="Register">登録</button>
+                <!-- 登録ボタン -->
+                <button type="button" data-bind="click: RegisterBtn" class="btn btn-primary btn-full-size" name="Register">{!$Label.Register}</button>
             </div>
         </div>
     </body>
