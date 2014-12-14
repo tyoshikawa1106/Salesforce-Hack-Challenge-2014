@@ -70,6 +70,21 @@ Force.comサイトで使用するページです。必要事項を入力して�
 
 <img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214174735.png" />
 
+### Salesforce1モバイルアプリからのアクセス
+Salesforce1アプリを利用することでモバイル端末からChatterグループに共有された応募者情報などに簡単にアクセスできます。
+
+<img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214175744.png" />
+
+リンク機能でタップ一つで詳細ページを表示できます。
+
+<img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214175746.png" />
+
+BlogやGitHubなどのURLリンクを選択するとSalesforce1から対象ページに簡単にアクセスできます。Salesforce1のページに戻りたい場合は、左上の完了ボタンを選択することですぐに戻ることができます。
+
+<img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214175747.png" />
+
+
+
 
 ## Demo Video
 // 動画追記
