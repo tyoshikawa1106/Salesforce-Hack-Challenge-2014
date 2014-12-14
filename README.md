@@ -1,5 +1,5 @@
 #Salesforce Hack Challenge 2014
-<img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214145915.png" />  
+<img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214170744.png" />  
 
 ## Challenge Post Link
 - http://jphack2014.challengepost.com/submissions/30742-force-com-developer
@@ -47,7 +47,9 @@ Force.comサイトで使用するページです。必要事項を入力して�
 
 <img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214164910.png" />
 
+バッチ処理が正常に実行されたとき、Chatterグループには次のように共有されます。
 
+<img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214165807.png" />
 
 
 
