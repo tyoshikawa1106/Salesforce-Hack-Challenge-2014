@@ -56,6 +56,16 @@ Force.comサイトで使用するページです。必要事項を入力して�
 <img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214171559.png" />
 
 
+バッチ処理の対象となる応募者レコードは投稿済み項目にチェックが無いレコードとなります。Chatter投稿処理実行時に投稿済み項目もチェック有りとして更新されるので二回目以降に再共有されるようなことはありません。
+
+<img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214173100.png" />
+
+
+投稿対象のなるChatterグループはカスタム設定で指定します。カスタム設定に登録されたグループ名と一致するグループにバッチ処理から投稿します。Chatterグループ名が変更された場合はカスタム設定の値を変更することで簡単に対応可能となります。
+
+<img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214174016.png" />
+
+
 ## Demo Video
 // 動画追記
 
