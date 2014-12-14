@@ -16,6 +16,12 @@
 - Salesforce1 Mobile
 - Report&Dashboard
 
+## Package URL
+https://login.salesforce.com/packaging/installPackage.apexp?p0=04t10000000G6rH
+
+## Demo Video
+// 動画追記
+
 ## Application
 ### 応募者登録画面
 Force.comサイトで使用するページです。必要事項を入力して登録ボタンをクリックするとSalesforceの応募者オブジェクトに登録されます。色付きの入力欄が必須項目です。
@@ -83,11 +89,27 @@ BlogやGitHubなどのURLリンクを選択するとSalesforce1から対象ペ�
 
 <img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214175747.png" />
 
+## 応募者検索画面
+Salesforce1アプリから応募者情報を検索できる画面です。検索条件は氏名項目となります。KnockoutJsとRemoteObjectsを利用して実装しました。
 
+<img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214182304.png" />
 
+前方一致のあいまい検索となっているので姓だけでも検索可能です。
 
-## Demo Video
-// 動画追記
+<img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214181159.jpg" />
+
+レコードを選択すると詳細ページへ遷移します。詳細ページで左上の戻るアイコンを選択すると応募者検索画面に戻ることができます。
+
+<img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214181219.jpg" />
+
+### Salesforce1&ダッシュボード
+Salesforce1アプリの標準機能でダッシュボードにアクセスできるのでPCからログインしなくもモバイル端末から簡単に分析情報を確認できます。
+
+<img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214182305.png" />
+
+グラフを選択するとより詳細な情報を参照できます。
+
+<img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214182306.png" />
 
 ## Code
 ### 応募者登録画面  
