@@ -17,7 +17,29 @@
 - Report&Dashboard
 
 ## Application
-// 概要追記
+### 応募者登録画面
+Force.comサイトで使用するページです。必要事項を入力して登録ボタンをクリックするとSalesforceの応募者オブジェクトに登録されます。色付きの入力欄が必須項目です。
+
+<img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214161045.png" />
+
+
+登録が完了するとメッセージが表示されます。
+
+<img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214161423.png" />
+
+社内ユーザは応募者タブから情報を参照できます。ブログやGitHubなどのURLを入力してもらうことでどのようなスキルを持つ開発者か確認しやすくなります。
+
+
+### 応募者登録トリガー
+応募者登録画面で登録処理が完了するとApexトリガーで通知メールを自動送信します。
+
+<img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214161739.png" />
+
+
+登録されたメールアドレスが誤っているなどの理由で、メール送信に失敗した場合は送信メールエラーログオブジェクトにエラー内容が登録されます。(メール送信に失敗しても応募者の情報は正常に登録されます。)
+
+<img src="http://f.st-hatena.com/images/fotolife/t/tyoshikawa1106/20141214/20141214162026.png" />
+
 
 ## Demo Video
 // 動画追記
